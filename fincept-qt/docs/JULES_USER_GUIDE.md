@@ -113,4 +113,25 @@ If Jules cannot find a tool:
 -   Ensure the Python environment is active (`agno` and `yfinance` installed).
 
 ---
+
+## 9. The Jules Persona (AI Partner)
+
+For the most immersive experience, you can activate the dedicated **Jules** persona in the AI Chat.
+
+### What changes?
+-   **Context**: Jules is pre-configured with deep knowledge of the terminal's C++ and Python architecture.
+-   **Tone**: Highly technical, proactive, and focused on engineering and quant research.
+-   **Capabilities**: Better handles requests for code modifications, data connector creation, and complex strategy backtesting.
+
+### How to activate:
+1.  Open the **AI Chat** widget.
+2.  Click on the **Persona/Agent** dropdown.
+3.  Select **Jules** (Category: Engineering).
+
+### Example Prompts for the Jules Persona:
+-   "Jules, help me add a new technical indicator to `scripts/compute_technicals.py`."
+-   "Jules, analyze the latency of the DataHub pub/sub system for crypto ticks."
+-   "Jules, write a factor that correlates maritime congestion with dry bulk freight rates."
+
+---
 *Fincept Corporation © 2026*
