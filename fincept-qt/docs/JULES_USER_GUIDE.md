@@ -70,7 +70,42 @@ Refer to `MCP_TOOLS_GUIDE.md` for the full technical walkthrough.
 
 ---
 
-## 6. Diagnosis and Help
+## 6. Safe Learning with Bybit and Crypto
+
+For beginners looking to explore Bybit and the crypto market safely, follow these steps:
+
+### 1. Real-time Market Data
+Use the **DataHub** or the **Vision Quant** tools to see live price action without risking capital.
+*   *Prompt Example:* "Show me live BTC-USD price and volume from DataHub for 10 seconds."
+
+### 2. Risk-Free Trading (Paper Trading)
+FinceptTerminal includes a Paper Trading engine. You can practice execution using virtual funds.
+*   *Prompt Example:* "Open a long position for 0.5 BTC on my paper account at current market price."
+
+### 3. Historical Backtesting
+Before trading, test your ideas on history. Use the `simple_backtest_example.py` script as a template.
+*   *Prompt Example:* "Run the simple backtest for ETH-USD from 2023 to 2024 with $5000 capital."
+
+---
+
+## 7. Инструкция: Безопасное обучение (Bybit/Crypto)
+
+Если вы хотите изучить рынок Bybit, не рискуя реальными деньгами:
+
+1.  **Котировки в реальном времени:**
+    Используйте команду: "Покажи текущий стакан и цену BTC-USD через DataHub". Это позволит следить за рынком без задержек.
+
+2.  **Бумажная торговля (Paper Trading):**
+    Это идеальный способ учиться. Напишите мне: "Купи 0.1 BTC на бумажный счет". Терминал симулирует сделку по реальным ценам, но деньги останутся в сохранности.
+
+3.  **Тестирование стратегий (Backtesting):**
+    Проверьте свои идеи на истории. В папке `scripts/ai_quant_lab/` я создал для вас файл `simple_backtest_example.py`.
+    *   **Пример стратегии:** Покупка при росте на 2%, продажа при падении на 1%.
+    *   **Запрос ко мне:** "Запусти бэктест стратегии 2/1 для BTC-USD за весь 2024 год с капиталом $10000".
+
+---
+
+## 8. Diagnosis and Help
 
 If Jules cannot find a tool:
 -   Run `mcp.health` in the chat.
